@@ -1,0 +1,1 @@
+{"_invocation_id": "6870927a-ab49-45b8-9c4f-208391463049", "linked": {"0": {"name": "model.football_data_engineering.stg_play_by_play", "type": "model", "succ": [1]}, "1": {"name": "model.football_data_engineering.plays", "type": "model", "succ": [2]}, "2": {"name": "test.football_data_engineering.rams_replacement", "type": "test"}}}

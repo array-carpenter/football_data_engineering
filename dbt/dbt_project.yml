@@ -1,0 +1,15 @@
+name: football_data_engineering
+version: "1.0.0"
+config-version: 2
+
+profile: football_data_engineering
+
+model-paths: ["models"] 
+target-path: "target"
+
+models:
+  football_data_engineering:
+    staging:
+      +materialized: view
+    silver:
+      +materialized: table

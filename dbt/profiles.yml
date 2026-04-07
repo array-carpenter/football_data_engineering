@@ -1,0 +1,6 @@
+football_data_engineering:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ../data/football.duckdb

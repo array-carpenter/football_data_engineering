@@ -1,0 +1,5 @@
+.venv/*
+data/
+dbt/target/
+dbt/logs/
+dbt/.user.yml
