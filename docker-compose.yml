@@ -1,0 +1,11 @@
+services:
+  airflow:
+    image: apache/airflow:2.10.0
+    environment:
+     - AIRFLOW__CORE__LOAD_EXAMPLES=false
+     - AIRFLOW__DAA_BASE__SQL_ALCHEMY_CONN=sqlite:////opt/airflow/airflow.db 
+    volumes:
+     - ./dags:/opt/airflow/dags
+    ports:
+     - "8080:8080"
+    command: airflow standalone
