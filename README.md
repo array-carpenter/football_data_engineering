@@ -1,5 +1,7 @@
   # Football Data Engineering
 
+  <img width="3531" height="1979" alt="football_architecture_v2" src="https://github.com/user-attachments/assets/fb113124-ad55-4c68-902b-20d30e565d26" />
+
   Learning data engineering with free NFL data.
 
   ## Tech Stack
