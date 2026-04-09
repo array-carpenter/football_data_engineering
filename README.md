@@ -1,13 +1,13 @@
-# Football Data Engineering
+  # Football Data Engineering
 
-Learning data engineering with free NFL data.
+  Learning data engineering with free NFL data.
 
-## Tech Stack
-- dbt
-- DuckDB
-- Docker
-- Kubernetes
-- Airflow
+  ## Tech Stack
+  - dbt
+  - DuckDB
+  - Docker
+  - Kubernetes
+  - Airflow
 
   ## File Structure
 
@@ -34,4 +34,5 @@ Learning data engineering with free NFL data.
 
   Author
 
-  Ray Carpenter — The Spade | @csv_enjoyer```
+  Ray Carpenter — @csv_enjoyer | thespade.substack.coom
+  ```
