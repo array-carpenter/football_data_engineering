@@ -24,17 +24,17 @@ with desc_jumbo as (
         season, week, season_type, posteam, defteam,
         game_id, play_id, down, ydstogo, yardline_100,
         score_differential, play_type, pass, rush,
-        yards_gained, epa, desc,
+        yards_gained, epa, "desc",
         true as is_jumbo_desc,
         -- Number of distinct reporters on this play (multi-reporter handling)
         array_length(
-            regexp_extract_all(desc, '\d+-[A-Z]\.\S+ reported in as eligible')
+            regexp_extract_all("desc", '\d+-[A-Z]\.\S+ reported in as eligible')
         ) as n_reporters
     from {{ ref('plays') }}
     where season_type = 'REG'
       and posteam is not null
       and (pass = 1 or rush = 1)
-      and regexp_matches(desc, '(reported|reports)( in)? as eligible')
+      and regexp_matches("desc", '(reported|reports)( in)? as eligible')
 ),
 
 jersey_jumbo as (
@@ -79,7 +79,7 @@ select
     p.rush,
     p.yards_gained,
     p.epa,
-    p.desc,
+    p."desc",
     coalesce(d.is_jumbo_desc,   false) as is_jumbo_desc,
     coalesce(j.is_jumbo_jersey, false) as is_jumbo_jersey,
     coalesce(d.n_reporters, 0)         as n_reporters,

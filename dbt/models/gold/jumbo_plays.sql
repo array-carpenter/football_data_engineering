@@ -31,11 +31,11 @@ SELECT
     rush,
     yards_gained,
     epa,
-    desc,
+    "desc",
     -- Convenience: number of distinct reporters on this play
     -- (handles multi-reporter plays like Heck + Vea on TB goal line)
     array_length(
-        regexp_extract_all(desc, '\d+-[A-Z]\.\S+ reported in as eligible')
+        regexp_extract_all("desc", '\d+-[A-Z]\.\S+ reported in as eligible')
     ) as n_reporters,
     -- Field position bucket for goal-line vs midfield slicing
     case
@@ -49,4 +49,4 @@ FROM {{ ref('plays') }}
 WHERE season_type = 'REG'
   AND posteam IS NOT NULL
   AND (pass = 1 OR rush = 1)
-  AND regexp_matches(desc, '(reported|reports)( in)? as eligible')
+  AND regexp_matches("desc", '(reported|reports)( in)? as eligible')

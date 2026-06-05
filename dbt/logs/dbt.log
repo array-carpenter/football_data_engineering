@@ -4093,3 +4093,1707 @@ WHERE posteam = 'LA'
 [0m15:27:39.588031 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10949c110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109b420a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109b41e90>]}
 [0m15:27:39.588136 [debug] [MainThread]: Flushing usage events
 [0m15:27:39.704049 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:23:11.184715 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ae912b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bf3f890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bf3fb10>]}
+[0m10:23:11.184667 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a408d70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b39bb10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b39bd90>]}
+
+
+============================== 10:23:12.276821 | feafdcdd-4ace-4cd0-9b69-bc3f586e3b15 ==============================
+[0m10:23:12.276821 [info ] [MainThread]: Running with dbt=1.11.8
+
+
+============================== 10:23:12.276787 | 0939a3e1-baac-404e-af45-a7850fddb73f ==============================
+[0m10:23:12.276787 [info ] [MainThread]: Running with dbt=1.11.8
+[0m10:23:12.277515 [debug] [MainThread]: running dbt with arguments {'debug': 'False', 'warn_error': 'None', 'cache_selected_only': 'False', 'profiles_dir': '/Users/raycarpenter/Documents/GitHub/football_data_engineering/dbt', 'printer_width': '80', 'use_experimental_parser': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'write_json': 'True', 'log_format': 'default', 'log_path': '/Users/raycarpenter/Documents/GitHub/football_data_engineering/dbt/logs', 'invocation_command': 'dbt run', 'partial_parse': 'True', 'target_path': 'None', 'indirect_selection': 'eager', 'static_parser': 'True', 'fail_fast': 'False', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'empty': 'False', 'use_colors': 'True', 'version_check': 'True', 'log_cache_events': 'False', 'introspect': 'True'}
+[0m10:23:12.277593 [debug] [MainThread]: running dbt with arguments {'use_colors': 'True', 'log_cache_events': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'indirect_selection': 'eager', 'warn_error': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True', 'target_path': 'None', 'profiles_dir': '/Users/raycarpenter/Documents/GitHub/football_data_engineering/dbt', 'write_json': 'True', 'version_check': 'True', 'no_print': 'None', 'log_format': 'default', 'partial_parse': 'True', 'debug': 'False', 'static_parser': 'True', 'cache_selected_only': 'False', 'log_path': '/Users/raycarpenter/Documents/GitHub/football_data_engineering/dbt/logs', 'fail_fast': 'False', 'printer_width': '80', 'invocation_command': 'dbt run', 'quiet': 'False', 'use_experimental_parser': 'False'}
+[0m10:23:15.078290 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0939a3e1-baac-404e-af45-a7850fddb73f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a6ac770>]}
+[0m10:23:15.078291 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'feafdcdd-4ace-4cd0-9b69-bc3f586e3b15', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b1b90f0>]}
+[0m10:23:15.098000 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '0939a3e1-baac-404e-af45-a7850fddb73f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b545bf0>]}
+[0m10:23:15.098339 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'feafdcdd-4ace-4cd0-9b69-bc3f586e3b15', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bf2bdf0>]}
+[0m10:23:16.036526 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m10:23:16.036569 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m10:23:17.171550 [debug] [MainThread]: checksum: 7d524ac048c2100769df89d592e662e060a73ca564e31bd9c2a37efdfe8d8ab6, vars: {}, profile: , target: , version: 1.11.8
+[0m10:23:17.171564 [debug] [MainThread]: checksum: 7d524ac048c2100769df89d592e662e060a73ca564e31bd9c2a37efdfe8d8ab6, vars: {}, profile: , target: , version: 1.11.8
+[0m10:23:17.203961 [info ] [MainThread]: Unable to do partial parsing because of a version mismatch
+[0m10:23:17.204188 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '0939a3e1-baac-404e-af45-a7850fddb73f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b50bc50>]}
+[0m10:23:17.204648 [info ] [MainThread]: Unable to do partial parsing because of a version mismatch
+[0m10:23:17.204870 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'feafdcdd-4ace-4cd0-9b69-bc3f586e3b15', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c00e750>]}
+[0m10:24:13.394985 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '0939a3e1-baac-404e-af45-a7850fddb73f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b55d8b0>]}
+[0m10:24:13.401531 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'feafdcdd-4ace-4cd0-9b69-bc3f586e3b15', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c249a90>]}
+[0m10:24:13.422996 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/raycarpenter/Documents/GitHub/football_data_engineering/dbt/target/manifest.json
+[0m10:24:13.428354 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/raycarpenter/Documents/GitHub/football_data_engineering/dbt/target/manifest.json
+[0m10:24:14.578572 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/raycarpenter/Documents/GitHub/football_data_engineering/dbt/target/semantic_manifest.json
+[0m10:24:14.578627 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/raycarpenter/Documents/GitHub/football_data_engineering/dbt/target/semantic_manifest.json
+[0m10:24:15.736305 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'feafdcdd-4ace-4cd0-9b69-bc3f586e3b15', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c73e350>]}
+[0m10:24:15.736320 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '0939a3e1-baac-404e-af45-a7850fddb73f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bbbc4b0>]}
+[0m10:24:15.736616 [info ] [MainThread]: Found 14 models, 3 data tests, 475 macros
+[0m10:24:15.736772 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'feafdcdd-4ace-4cd0-9b69-bc3f586e3b15', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c4ac050>]}
+[0m10:24:15.736614 [info ] [MainThread]: Found 14 models, 3 data tests, 475 macros
+[0m10:24:15.736906 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0939a3e1-baac-404e-af45-a7850fddb73f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b7894a0>]}
+[0m10:24:15.737824 [info ] [MainThread]: 
+[0m10:24:15.737953 [info ] [MainThread]: 
+[0m10:24:15.737983 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:24:15.738099 [info ] [MainThread]: 
+[0m10:24:15.738121 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:24:15.738240 [info ] [MainThread]: 
+[0m10:24:15.738317 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m10:24:15.738454 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m10:24:15.740770 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_football'
+[0m10:24:15.740871 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_football'
+[0m10:24:20.715879 [debug] [ThreadPool]: Using duckdb connection "list_football"
+[0m10:24:20.716030 [debug] [ThreadPool]: Using duckdb connection "list_football"
+[0m10:24:20.716382 [debug] [ThreadPool]: On list_football: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "connection_name": "list_football"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"football"'
+    
+  
+  
+[0m10:24:20.716456 [debug] [ThreadPool]: On list_football: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "connection_name": "list_football"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"football"'
+    
+  
+  
+[0m10:24:20.716667 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:24:20.716724 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:24:20.730164 [debug] [ThreadPool]: DuckDB adapter: duckdb error: IO Error: Could not set lock on file "/Users/raycarpenter/Documents/GitHub/football_data_engineering/data/football.duckdb": Conflicting lock is held in /Users/raycarpenter/.local/share/uv/python/cpython-3.13.12-macos-aarch64-none/bin/python3.13 (PID 58436) by user raycarpenter. See also https://duckdb.org/docs/stable/connect/concurrency
+[0m10:24:20.730595 [debug] [ThreadPool]: DuckDB adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "connection_name": "list_football"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"football"'
+    
+  
+  
+[0m10:24:20.730828 [debug] [ThreadPool]: DuckDB adapter: Rolling back transaction.
+[0m10:24:20.731022 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:24:20.734316 [debug] [ThreadPool]: DuckDB adapter: duckdb error: IO Error: Could not set lock on file "/Users/raycarpenter/Documents/GitHub/football_data_engineering/data/football.duckdb": Conflicting lock is held in /Users/raycarpenter/.local/share/uv/python/cpython-3.13.12-macos-aarch64-none/bin/python3.13 (PID 58436) by user raycarpenter. See also https://duckdb.org/docs/stable/connect/concurrency
+[0m10:24:20.734543 [debug] [ThreadPool]: DuckDB adapter: Error running SQL: macro list_schemas
+[0m10:24:20.734717 [debug] [ThreadPool]: DuckDB adapter: Rolling back transaction.
+[0m10:24:20.734880 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:24:20.737807 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:24:20.738042 [debug] [MainThread]: Connection 'list_football' was properly closed.
+[0m10:24:20.738226 [info ] [MainThread]: 
+[0m10:24:20.738399 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 5.00 seconds (5.00s).
+[0m10:24:20.738664 [error] [MainThread]: Encountered an error:
+IO Error: Could not set lock on file "/Users/raycarpenter/Documents/GitHub/football_data_engineering/data/football.duckdb": Conflicting lock is held in /Users/raycarpenter/.local/share/uv/python/cpython-3.13.12-macos-aarch64-none/bin/python3.13 (PID 58436) by user raycarpenter. See also https://duckdb.org/docs/stable/connect/concurrency
+[0m10:24:20.745325 [debug] [ThreadPool]: SQL status: OK in 0.029 seconds
+[0m10:24:20.746476 [debug] [ThreadPool]: On list_football: Close
+[0m10:24:20.746844 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_football, now create_football_main)
+[0m10:24:20.747077 [debug] [ThreadPool]: Creating schema "database: "football"
+schema: "main"
+"
+[0m10:24:20.750262 [debug] [ThreadPool]: Using duckdb connection "create_football_main"
+[0m10:24:20.750433 [debug] [ThreadPool]: On create_football_main: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "connection_name": "create_football_main"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='football'
+        and type='sqlite'
+    
+  
+[0m10:24:20.750565 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:24:20.751268 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m10:24:20.752148 [debug] [ThreadPool]: Using duckdb connection "create_football_main"
+[0m10:24:20.752307 [debug] [ThreadPool]: On create_football_main: BEGIN
+[0m10:24:20.752502 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m10:24:20.752620 [debug] [ThreadPool]: Using duckdb connection "create_football_main"
+[0m10:24:20.752737 [debug] [ThreadPool]: On create_football_main: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "connection_name": "create_football_main"} */
+
+    
+    
+        create schema if not exists "football"."main"
+    
+[0m10:24:20.752940 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m10:24:20.753305 [debug] [ThreadPool]: On create_football_main: COMMIT
+[0m10:24:20.753436 [debug] [ThreadPool]: Using duckdb connection "create_football_main"
+[0m10:24:20.753546 [debug] [ThreadPool]: On create_football_main: COMMIT
+[0m10:24:20.753695 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m10:24:20.753805 [debug] [ThreadPool]: On create_football_main: Close
+[0m10:24:20.754556 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_football_main, now list_football_main)
+[0m10:24:20.757225 [debug] [ThreadPool]: Using duckdb connection "list_football_main"
+[0m10:24:20.757359 [debug] [ThreadPool]: On list_football_main: BEGIN
+[0m10:24:20.757466 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:24:20.757636 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m10:24:20.757737 [debug] [ThreadPool]: Using duckdb connection "list_football_main"
+[0m10:24:20.757849 [debug] [ThreadPool]: On list_football_main: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "connection_name": "list_football_main"} */
+select
+      'football' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'football'
+  
+[0m10:24:20.760613 [debug] [ThreadPool]: SQL status: OK in 0.003 seconds
+[0m10:24:20.761196 [debug] [ThreadPool]: On list_football_main: ROLLBACK
+[0m10:24:20.761706 [debug] [ThreadPool]: Failed to rollback 'list_football_main'
+[0m10:24:20.761827 [debug] [ThreadPool]: On list_football_main: Close
+[0m10:24:20.762370 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0939a3e1-baac-404e-af45-a7850fddb73f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bbb99d0>]}
+[0m10:24:20.762616 [debug] [MainThread]: Using duckdb connection "master"
+[0m10:24:20.762748 [debug] [MainThread]: On master: BEGIN
+[0m10:24:20.762858 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:24:20.763035 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m10:24:20.763138 [debug] [MainThread]: On master: COMMIT
+[0m10:24:20.763237 [debug] [MainThread]: Using duckdb connection "master"
+[0m10:24:20.763334 [debug] [MainThread]: On master: COMMIT
+[0m10:24:20.763481 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m10:24:20.763579 [debug] [MainThread]: On master: Close
+[0m10:24:20.764880 [debug] [Thread-1 (]: Began running node model.football_data_engineering.stg_participation
+[0m10:24:20.765098 [info ] [Thread-1 (]: 1 of 14 START sql view model main.stg_participation ............................ [RUN]
+[0m10:24:20.765279 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_football_main, now model.football_data_engineering.stg_participation)
+[0m10:24:20.765412 [debug] [Thread-1 (]: Began compiling node model.football_data_engineering.stg_participation
+[0m10:24:20.767927 [debug] [Thread-1 (]: Writing injected SQL for node "model.football_data_engineering.stg_participation"
+[0m10:24:20.768247 [debug] [Thread-1 (]: Began executing node model.football_data_engineering.stg_participation
+[0m10:24:20.779290 [debug] [Thread-1 (]: Writing runtime sql for node "model.football_data_engineering.stg_participation"
+[0m10:24:20.779791 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.stg_participation"
+[0m10:24:20.779921 [debug] [Thread-1 (]: On model.football_data_engineering.stg_participation: BEGIN
+[0m10:24:20.780032 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m10:24:20.780265 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:20.780367 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.stg_participation"
+[0m10:24:20.780481 [debug] [Thread-1 (]: On model.football_data_engineering.stg_participation: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.stg_participation"} */
+
+  
+  create view "football"."main"."stg_participation__dbt_tmp" as (
+    -- Staging: raw participation CSV
+-- One row per play with semicolon-separated player IDs / numbers / positions.
+-- Note: offense_numbers and offense_positions are only populated 2023+.
+
+select *
+from read_csv(
+    '../data/bronze/participation_2025.csv.gz',
+    auto_detect = true,
+    sample_size = 10000
+)
+  );
+
+[0m10:24:20.955582 [debug] [Thread-1 (]: SQL status: OK in 0.175 seconds
+[0m10:24:20.957756 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.stg_participation"
+[0m10:24:20.957881 [debug] [Thread-1 (]: On model.football_data_engineering.stg_participation: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.stg_participation"} */
+alter view "football"."main"."stg_participation__dbt_tmp" rename to "stg_participation"
+[0m10:24:20.958318 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:20.962430 [debug] [Thread-1 (]: On model.football_data_engineering.stg_participation: COMMIT
+[0m10:24:20.962581 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.stg_participation"
+[0m10:24:20.962683 [debug] [Thread-1 (]: On model.football_data_engineering.stg_participation: COMMIT
+[0m10:24:20.963321 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m10:24:20.964987 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.stg_participation"
+[0m10:24:20.965097 [debug] [Thread-1 (]: On model.football_data_engineering.stg_participation: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.stg_participation"} */
+
+      drop view if exists "football"."main"."stg_participation__dbt_backup" cascade
+    
+[0m10:24:20.965468 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:20.966279 [debug] [Thread-1 (]: On model.football_data_engineering.stg_participation: Close
+[0m10:24:20.967061 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0939a3e1-baac-404e-af45-a7850fddb73f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10be19700>]}
+[0m10:24:20.967304 [info ] [Thread-1 (]: 1 of 14 OK created sql view model main.stg_participation ....................... [[32mOK[0m in 0.20s]
+[0m10:24:20.967507 [debug] [Thread-1 (]: Finished running node model.football_data_engineering.stg_participation
+[0m10:24:20.967643 [debug] [Thread-1 (]: Began running node model.football_data_engineering.stg_play_by_play
+[0m10:24:20.967834 [info ] [Thread-1 (]: 2 of 14 START sql view model main.stg_play_by_play ............................. [RUN]
+[0m10:24:20.968011 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.football_data_engineering.stg_participation, now model.football_data_engineering.stg_play_by_play)
+[0m10:24:20.968127 [debug] [Thread-1 (]: Began compiling node model.football_data_engineering.stg_play_by_play
+[0m10:24:20.968651 [debug] [Thread-1 (]: Writing injected SQL for node "model.football_data_engineering.stg_play_by_play"
+[0m10:24:20.969327 [debug] [Thread-1 (]: Began executing node model.football_data_engineering.stg_play_by_play
+[0m10:24:20.970600 [debug] [Thread-1 (]: Writing runtime sql for node "model.football_data_engineering.stg_play_by_play"
+[0m10:24:20.970998 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.stg_play_by_play"
+[0m10:24:20.971100 [debug] [Thread-1 (]: On model.football_data_engineering.stg_play_by_play: BEGIN
+[0m10:24:20.971190 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m10:24:20.971420 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:20.971522 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.stg_play_by_play"
+[0m10:24:20.971627 [debug] [Thread-1 (]: On model.football_data_engineering.stg_play_by_play: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.stg_play_by_play"} */
+
+  
+  create view "football"."main"."stg_play_by_play__dbt_tmp" as (
+    select *
+from read_csv(
+    '../data/bronze/play_by_play_*.csv.gz',
+    auto_detect=true,
+    sample_size=10000,
+    union_by_name=true
+)
+  );
+
+[0m10:24:21.441811 [debug] [Thread-1 (]: SQL status: OK in 0.470 seconds
+[0m10:24:21.443162 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.stg_play_by_play"
+[0m10:24:21.443303 [debug] [Thread-1 (]: On model.football_data_engineering.stg_play_by_play: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.stg_play_by_play"} */
+alter view "football"."main"."stg_play_by_play" rename to "stg_play_by_play__dbt_backup"
+[0m10:24:21.443550 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:21.444427 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.stg_play_by_play"
+[0m10:24:21.444541 [debug] [Thread-1 (]: On model.football_data_engineering.stg_play_by_play: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.stg_play_by_play"} */
+alter view "football"."main"."stg_play_by_play__dbt_tmp" rename to "stg_play_by_play"
+[0m10:24:21.444735 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:21.447272 [debug] [Thread-1 (]: On model.football_data_engineering.stg_play_by_play: COMMIT
+[0m10:24:21.447396 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.stg_play_by_play"
+[0m10:24:21.447501 [debug] [Thread-1 (]: On model.football_data_engineering.stg_play_by_play: COMMIT
+[0m10:24:21.447918 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:21.448640 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.stg_play_by_play"
+[0m10:24:21.448749 [debug] [Thread-1 (]: On model.football_data_engineering.stg_play_by_play: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.stg_play_by_play"} */
+
+      drop view if exists "football"."main"."stg_play_by_play__dbt_backup" cascade
+    
+[0m10:24:21.448982 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:21.449453 [debug] [Thread-1 (]: On model.football_data_engineering.stg_play_by_play: Close
+[0m10:24:21.449659 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0939a3e1-baac-404e-af45-a7850fddb73f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10baca5d0>]}
+[0m10:24:21.449872 [info ] [Thread-1 (]: 2 of 14 OK created sql view model main.stg_play_by_play ........................ [[32mOK[0m in 0.48s]
+[0m10:24:21.450086 [debug] [Thread-1 (]: Finished running node model.football_data_engineering.stg_play_by_play
+[0m10:24:21.450217 [debug] [Thread-1 (]: Began running node model.football_data_engineering.participation
+[0m10:24:21.450444 [info ] [Thread-1 (]: 3 of 14 START sql table model main.participation ............................... [RUN]
+[0m10:24:21.450677 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.football_data_engineering.stg_play_by_play, now model.football_data_engineering.participation)
+[0m10:24:21.450806 [debug] [Thread-1 (]: Began compiling node model.football_data_engineering.participation
+[0m10:24:21.451881 [debug] [Thread-1 (]: Writing injected SQL for node "model.football_data_engineering.participation"
+[0m10:24:21.452191 [debug] [Thread-1 (]: Began executing node model.football_data_engineering.participation
+[0m10:24:21.458882 [debug] [Thread-1 (]: Writing runtime sql for node "model.football_data_engineering.participation"
+[0m10:24:21.459238 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.participation"
+[0m10:24:21.459357 [debug] [Thread-1 (]: On model.football_data_engineering.participation: BEGIN
+[0m10:24:21.459464 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m10:24:21.459706 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:21.459809 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.participation"
+[0m10:24:21.459961 [debug] [Thread-1 (]: On model.football_data_engineering.participation: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.participation"} */
+
+  
+    
+    
+
+    create  table
+      "football"."main"."participation__dbt_tmp"
+  
+    as (
+      -- Silver: cleaned participation, one row per play, with derived counts
+-- already computed.
+--
+-- Two important things happen here:
+--   1. Rams game_id normalization (LA -> LAR) so this can join to silver.plays
+--      without silently dropping every Rams play.
+--   2. Dissection of the semicolon-separated columns into arrays plus
+--      pre-computed jumbo signals (count of ineligible-numbered players).
+--
+-- Downstream gold models can use:
+--   - n_offense_players / n_offense_numbers (sanity checks)
+--   - n_ineligible_numbered (the jersey-rule jumbo signal: 6+ = jumbo)
+--   - offense_player_ids / offense_numbers_arr (for unnesting per-player)
+
+select
+    -- Normalize Rams game_id (silver/plays.sql does the same; both must
+    -- agree or the join breaks). LAC is unaffected because the pattern
+    -- requires "_LA" followed by "_" or end-of-string.
+    case
+        when nflverse_game_id like '%_LA' then
+            replace(nflverse_game_id, '_LA', '_LAR')
+        else
+            replace(nflverse_game_id, '_LA_', '_LAR_')
+    end as game_id,
+    play_id,
+    possession_team,
+
+    -- Raw arrays (for downstream unnesting)
+    string_to_array(offense_players, ';')   as offense_player_ids,
+    string_to_array(offense_numbers, ';')   as offense_numbers_arr,
+    string_to_array(offense_positions, ';') as offense_positions_arr,
+    string_to_array(defense_players, ';')   as defense_player_ids,
+
+    -- Sanity columns
+    array_length(string_to_array(offense_players, ';')) as n_offense_players,
+    array_length(string_to_array(offense_numbers, ';')) as n_offense_numbers,
+
+    -- Jumbo signal: count of players with ineligible jersey numbers
+    -- (50-79 or 90-99). 6+ on the field = jumbo formation.
+    -- offense_numbers is only populated 2023+; will be NULL for older seasons.
+    coalesce(
+        (
+            select count(*)
+            from unnest(string_to_array(offense_numbers, ';')) as t(num)
+            where try_cast(num as int) between 50 and 79
+               or try_cast(num as int) between 90 and 99
+        ),
+        0
+    ) as n_ineligible_numbered,
+
+    -- Two-QB signal: count of players lined up at QB. 2+ means a second
+    -- quarterback is on the field (e.g. the Saints' Taysom Hill packages).
+    -- Same idea as n_ineligible_numbered above, just counting a position
+    -- instead of a number range. offense_positions is only populated 2023+.
+    coalesce(
+        (
+            select count(*)
+            from unnest(string_to_array(offense_positions, ';')) as t(pos)
+            where pos = 'QB'
+        ),
+        0
+    ) as n_qb,
+
+    -- Personnel grouping string ("1 C, 2 G, 1 QB, 1 RB, 2 T, 1 TE")
+    offense_personnel,
+    defense_personnel,
+    offense_formation,
+    defenders_in_box,
+    number_of_pass_rushers
+from "football"."main"."stg_participation"
+    );
+  
+  
+[0m10:24:21.772595 [debug] [Thread-1 (]: SQL status: OK in 0.312 seconds
+[0m10:24:21.773766 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.participation"
+[0m10:24:21.773907 [debug] [Thread-1 (]: On model.football_data_engineering.participation: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.participation"} */
+alter table "football"."main"."participation__dbt_tmp" rename to "participation"
+[0m10:24:21.774163 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:21.775867 [debug] [Thread-1 (]: On model.football_data_engineering.participation: COMMIT
+[0m10:24:21.775983 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.participation"
+[0m10:24:21.776074 [debug] [Thread-1 (]: On model.football_data_engineering.participation: COMMIT
+[0m10:24:21.812972 [debug] [Thread-1 (]: SQL status: OK in 0.037 seconds
+[0m10:24:21.814192 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.participation"
+[0m10:24:21.814332 [debug] [Thread-1 (]: On model.football_data_engineering.participation: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.participation"} */
+
+      drop table if exists "football"."main"."participation__dbt_backup" cascade
+    
+[0m10:24:21.814575 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:21.815065 [debug] [Thread-1 (]: On model.football_data_engineering.participation: Close
+[0m10:24:21.815267 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0939a3e1-baac-404e-af45-a7850fddb73f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bbec750>]}
+[0m10:24:21.815497 [info ] [Thread-1 (]: 3 of 14 OK created sql table model main.participation .......................... [[32mOK[0m in 0.36s]
+[0m10:24:21.815682 [debug] [Thread-1 (]: Finished running node model.football_data_engineering.participation
+[0m10:24:21.815809 [debug] [Thread-1 (]: Began running node model.football_data_engineering.plays
+[0m10:24:21.815989 [info ] [Thread-1 (]: 4 of 14 START sql table model main.plays ....................................... [RUN]
+[0m10:24:21.816128 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.football_data_engineering.participation, now model.football_data_engineering.plays)
+[0m10:24:21.816236 [debug] [Thread-1 (]: Began compiling node model.football_data_engineering.plays
+[0m10:24:21.817186 [debug] [Thread-1 (]: Writing injected SQL for node "model.football_data_engineering.plays"
+[0m10:24:21.817947 [debug] [Thread-1 (]: Began executing node model.football_data_engineering.plays
+[0m10:24:21.819060 [debug] [Thread-1 (]: Writing runtime sql for node "model.football_data_engineering.plays"
+[0m10:24:21.819546 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.plays"
+[0m10:24:21.819695 [debug] [Thread-1 (]: On model.football_data_engineering.plays: BEGIN
+[0m10:24:21.819809 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m10:24:21.820027 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:21.820135 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.plays"
+[0m10:24:21.820257 [debug] [Thread-1 (]: On model.football_data_engineering.plays: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.plays"} */
+
+  
+    
+    
+
+    create  table
+      "football"."main"."plays__dbt_tmp"
+  
+    as (
+      SELECT
+    CASE WHEN posteam = 'LA' THEN 'LAR' ELSE posteam END as posteam,
+    CASE when defteam = 'LA' THEN 'LAR' ELSE defteam END as defteam,
+    CASE WHEN td_team = 'LA' THEN 'LAR' ELSE td_team END as td_team,
+    CASE WHEN home_team = 'LA' THEN 'LAR' ELSE home_team END as home_team,
+    CASE WHEN away_team = 'LA' THEN 'LAR' ELSE away_team END as away_team,
+    CASE WHEN penalty_team = 'LA' THEN 'LAR' ELSE penalty_team END as penalty_team,
+    CASE WHEN return_team = 'LA' THEN 'LAR' ELSE return_team END as return_team,
+    CASE WHEN fumble_recovery_1_team = 'LA' THEN 'LAR' ELSE fumble_recovery_1_team END as fumble_recovery_1_team,
+    CASE WHEN timeout_team = 'LA' THEN 'LAR' else timeout_team END as timeout_team,
+    replace(game_id, '_LA_', '_LAR_') as game_id, -- including underscores so we don't accidentally replace the chargers
+    * exclude (posteam, defteam, td_team, home_team, away_team, penalty_team, return_team, fumble_recovery_1_team, timeout_team, game_id)
+    from "football"."main"."stg_play_by_play"
+    );
+  
+  
+[0m10:24:22.720594 [error] [MainThread]: Traceback (most recent call last):
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/adapters/duckdb/connections.py", line 95, in exception_handler
+    yield
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/adapters/sql/connections.py", line 147, in add_query
+    cursor = connection.handle.cursor()
+             ^^^^^^^^^^^^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/adapters/contracts/connection.py", line 96, in handle
+    self._handle.resolve(self)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/adapters/contracts/connection.py", line 120, in resolve
+    return self.opener(connection)
+           ~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/adapters/duckdb/connections.py", line 53, in open
+    connection.handle = cls._ENV.handle()
+                        ~~~~~~~~~~~~~~~^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/adapters/duckdb/environments/local.py", line 75, in handle
+    self.conn = self.initialize_db(self.creds, self._plugins)
+                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/adapters/duckdb/environments/__init__.py", line 159, in initialize_db
+    conn = duckdb.connect(creds.path, read_only=False, config=config)
+_duckdb.IOException: IO Error: Could not set lock on file "/Users/raycarpenter/Documents/GitHub/football_data_engineering/data/football.duckdb": Conflicting lock is held in /Users/raycarpenter/.local/share/uv/python/cpython-3.13.12-macos-aarch64-none/bin/python3.13 (PID 58436) by user raycarpenter. See also https://duckdb.org/docs/stable/connect/concurrency
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/adapters/duckdb/connections.py", line 95, in exception_handler
+    yield
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/adapters/base/impl.py", line 1320, in execute_macro
+    result = macro_function(**kwargs)
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt_common/clients/jinja.py", line 427, in __call__
+    return self.call_macro(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt_common/clients/jinja.py", line 395, in call_macro
+    return macro(*args, **kwargs)
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/jinja2/runtime.py", line 770, in __call__
+    return self._invoke(arguments, autoescape)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/jinja2/runtime.py", line 784, in _invoke
+    rv = self._func(*arguments)
+  File "<template>", line 20, in macro
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/jinja2/sandbox.py", line 401, in call
+    return __context.call(__obj, *args, **kwargs)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/jinja2/runtime.py", line 303, in call
+    return __obj(*args, **kwargs)
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/clients/jinja.py", line 82, in __call__
+    return self.call_macro(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt_common/clients/jinja.py", line 395, in call_macro
+    return macro(*args, **kwargs)
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/jinja2/runtime.py", line 770, in __call__
+    return self._invoke(arguments, autoescape)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/jinja2/runtime.py", line 784, in _invoke
+    rv = self._func(*arguments)
+  File "<template>", line 50, in macro
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/jinja2/sandbox.py", line 401, in call
+    return __context.call(__obj, *args, **kwargs)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/jinja2/runtime.py", line 303, in call
+    return __obj(*args, **kwargs)
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/clients/jinja.py", line 82, in __call__
+    return self.call_macro(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt_common/clients/jinja.py", line 395, in call_macro
+    return macro(*args, **kwargs)
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/jinja2/runtime.py", line 770, in __call__
+    return self._invoke(arguments, autoescape)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/jinja2/runtime.py", line 784, in _invoke
+    rv = self._func(*arguments)
+  File "<template>", line 33, in macro
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/jinja2/sandbox.py", line 401, in call
+    return __context.call(__obj, *args, **kwargs)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/jinja2/runtime.py", line 303, in call
+    return __obj(*args, **kwargs)
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/clients/jinja.py", line 82, in __call__
+    return self.call_macro(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt_common/clients/jinja.py", line 395, in call_macro
+    return macro(*args, **kwargs)
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/jinja2/runtime.py", line 770, in __call__
+    return self._invoke(arguments, autoescape)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/jinja2/runtime.py", line 784, in _invoke
+    rv = self._func(*arguments)
+  File "<template>", line 52, in macro
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/jinja2/sandbox.py", line 401, in call
+    return __context.call(__obj, *args, **kwargs)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/jinja2/runtime.py", line 303, in call
+    return __obj(*args, **kwargs)
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt_common/record.py", line 538, in record_replay_wrapper
+    return func_to_record(*call_args, **kwargs)
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/adapters/base/impl.py", line 471, in execute
+    return self.connections.execute(sql=sql, auto_begin=auto_begin, fetch=fetch, limit=limit)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/adapters/duckdb/connections.py", line 130, in execute
+    return super().execute(sql, auto_begin, fetch, limit)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/adapters/sql/connections.py", line 219, in execute
+    _, cursor = self.add_query(sql, auto_begin)
+                ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/adapters/sql/connections.py", line 131, in add_query
+    with self.exception_handler(sql):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/raycarpenter/.local/share/uv/python/cpython-3.13.12-macos-aarch64-none/lib/python3.13/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/adapters/duckdb/connections.py", line 102, in exception_handler
+    self.rollback_if_open()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/adapters/base/connections.py", line 125, in rollback_if_open
+    if conn is not None and conn.handle and conn.transaction_open:
+                            ^^^^^^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/adapters/contracts/connection.py", line 96, in handle
+    self._handle.resolve(self)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/adapters/contracts/connection.py", line 120, in resolve
+    return self.opener(connection)
+           ~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/adapters/duckdb/connections.py", line 53, in open
+    connection.handle = cls._ENV.handle()
+                        ~~~~~~~~~~~~~~~^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/adapters/duckdb/environments/local.py", line 75, in handle
+    self.conn = self.initialize_db(self.creds, self._plugins)
+                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/adapters/duckdb/environments/__init__.py", line 159, in initialize_db
+    conn = duckdb.connect(creds.path, read_only=False, config=config)
+_duckdb.IOException: IO Error: Could not set lock on file "/Users/raycarpenter/Documents/GitHub/football_data_engineering/data/football.duckdb": Conflicting lock is held in /Users/raycarpenter/.local/share/uv/python/cpython-3.13.12-macos-aarch64-none/bin/python3.13 (PID 58436) by user raycarpenter. See also https://duckdb.org/docs/stable/connect/concurrency
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/cli/requires.py", line 182, in wrapper
+    result, success = func(*args, **kwargs)
+                      ~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/cli/requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/cli/requires.py", line 276, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/cli/requires.py", line 321, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/cli/requires.py", line 391, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/cli/requires.py", line 368, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/cli/requires.py", line 408, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/cli/main.py", line 593, in run
+    results = task.run()
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/task/runnable.py", line 626, in run
+    result = self.execute_with_hooks(selected_uids)
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/task/runnable.py", line 559, in execute_with_hooks
+    before_run_status = self.before_run(adapter, selected_uids)
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/task/run.py", line 1114, in before_run
+    self.create_schemas(adapter, required_schemas)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/task/runnable.py", line 734, in create_schemas
+    existing_schemas_lowered.update(ls_future.result())
+                                    ~~~~~~~~~~~~~~~~^^
+  File "/Users/raycarpenter/.local/share/uv/python/cpython-3.13.12-macos-aarch64-none/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/Users/raycarpenter/.local/share/uv/python/cpython-3.13.12-macos-aarch64-none/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/raycarpenter/.local/share/uv/python/cpython-3.13.12-macos-aarch64-none/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt_common/utils/executor.py", line 16, in connected
+    return func(*args, **kwargs)
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/task/runnable.py", line 709, in list_schemas
+    for s in adapter.list_schemas(database_quoted)
+             ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/adapters/sql/impl.py", line 218, in list_schemas
+    results = self.execute_macro(LIST_SCHEMAS_MACRO_NAME, kwargs={"database": database})
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/adapters/base/impl.py", line 1319, in execute_macro
+    with self.connections.exception_handler(f"macro {macro_name}"):
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raycarpenter/.local/share/uv/python/cpython-3.13.12-macos-aarch64-none/lib/python3.13/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/adapters/duckdb/connections.py", line 102, in exception_handler
+    self.rollback_if_open()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/adapters/base/connections.py", line 125, in rollback_if_open
+    if conn is not None and conn.handle and conn.transaction_open:
+                            ^^^^^^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/adapters/contracts/connection.py", line 96, in handle
+    self._handle.resolve(self)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/adapters/contracts/connection.py", line 120, in resolve
+    return self.opener(connection)
+           ~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/adapters/duckdb/connections.py", line 53, in open
+    connection.handle = cls._ENV.handle()
+                        ~~~~~~~~~~~~~~~^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/adapters/duckdb/environments/local.py", line 75, in handle
+    self.conn = self.initialize_db(self.creds, self._plugins)
+                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raycarpenter/Documents/GitHub/football_data_engineering/.venv/lib/python3.13/site-packages/dbt/adapters/duckdb/environments/__init__.py", line 159, in initialize_db
+    conn = duckdb.connect(creds.path, read_only=False, config=config)
+_duckdb.IOException: IO Error: Could not set lock on file "/Users/raycarpenter/Documents/GitHub/football_data_engineering/data/football.duckdb": Conflicting lock is held in /Users/raycarpenter/.local/share/uv/python/cpython-3.13.12-macos-aarch64-none/bin/python3.13 (PID 58436) by user raycarpenter. See also https://duckdb.org/docs/stable/connect/concurrency
+
+[0m10:24:22.722098 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 71.592255, "process_in_blocks": "0", "process_kernel_time": 0.833359, "process_mem_max_rss": "148848640", "process_out_blocks": "0", "process_user_time": 2.593488}
+[0m10:24:22.722917 [debug] [MainThread]: Command `dbt run` failed at 10:24:22.722296 after 71.59 seconds
+[0m10:24:22.723093 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bf48ad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c7992e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c799700>]}
+[0m10:24:22.723247 [debug] [MainThread]: Flushing usage events
+[0m10:24:22.800643 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:24:23.049999 [debug] [Thread-1 (]: SQL status: OK in 1.230 seconds
+[0m10:24:23.056248 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.plays"
+[0m10:24:23.056399 [debug] [Thread-1 (]: On model.football_data_engineering.plays: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.plays"} */
+
+    SELECT index_name
+    FROM duckdb_indexes()
+    WHERE schema_name = 'main'
+      AND table_name = 'plays'
+  
+[0m10:24:23.056758 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:23.057196 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.plays"
+[0m10:24:23.057298 [debug] [Thread-1 (]: On model.football_data_engineering.plays: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.plays"} */
+
+    SELECT COUNT(*) as remaining_indexes
+    FROM duckdb_indexes()
+    WHERE schema_name = 'main'
+      AND table_name = 'plays'
+  
+[0m10:24:23.057610 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:23.058760 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.plays"
+[0m10:24:23.058890 [debug] [Thread-1 (]: On model.football_data_engineering.plays: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.plays"} */
+alter table "football"."main"."plays" rename to "plays__dbt_backup"
+[0m10:24:23.059157 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:23.059971 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.plays"
+[0m10:24:23.060081 [debug] [Thread-1 (]: On model.football_data_engineering.plays: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.plays"} */
+alter table "football"."main"."plays__dbt_tmp" rename to "plays"
+[0m10:24:23.060306 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:23.060820 [debug] [Thread-1 (]: On model.football_data_engineering.plays: COMMIT
+[0m10:24:23.060927 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.plays"
+[0m10:24:23.061025 [debug] [Thread-1 (]: On model.football_data_engineering.plays: COMMIT
+[0m10:24:24.128140 [debug] [Thread-1 (]: SQL status: OK in 1.067 seconds
+[0m10:24:24.129736 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.plays"
+[0m10:24:24.129868 [debug] [Thread-1 (]: On model.football_data_engineering.plays: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.plays"} */
+
+      drop table if exists "football"."main"."plays__dbt_backup" cascade
+    
+[0m10:24:24.131073 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m10:24:24.131574 [debug] [Thread-1 (]: On model.football_data_engineering.plays: Close
+[0m10:24:24.131774 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0939a3e1-baac-404e-af45-a7850fddb73f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bc8fd20>]}
+[0m10:24:24.131995 [info ] [Thread-1 (]: 4 of 14 OK created sql table model main.plays .................................. [[32mOK[0m in 2.32s]
+[0m10:24:24.132172 [debug] [Thread-1 (]: Finished running node model.football_data_engineering.plays
+[0m10:24:24.132481 [debug] [Thread-1 (]: Began running node model.football_data_engineering.epa_per_dropback
+[0m10:24:24.132634 [info ] [Thread-1 (]: 5 of 14 START sql table model main.epa_per_dropback ............................ [RUN]
+[0m10:24:24.132764 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.football_data_engineering.plays, now model.football_data_engineering.epa_per_dropback)
+[0m10:24:24.132860 [debug] [Thread-1 (]: Began compiling node model.football_data_engineering.epa_per_dropback
+[0m10:24:24.133716 [debug] [Thread-1 (]: Writing injected SQL for node "model.football_data_engineering.epa_per_dropback"
+[0m10:24:24.135716 [debug] [Thread-1 (]: Began executing node model.football_data_engineering.epa_per_dropback
+[0m10:24:24.136836 [debug] [Thread-1 (]: Writing runtime sql for node "model.football_data_engineering.epa_per_dropback"
+[0m10:24:24.137882 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.epa_per_dropback"
+[0m10:24:24.138017 [debug] [Thread-1 (]: On model.football_data_engineering.epa_per_dropback: BEGIN
+[0m10:24:24.138124 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m10:24:24.138329 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:24.138430 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.epa_per_dropback"
+[0m10:24:24.138541 [debug] [Thread-1 (]: On model.football_data_engineering.epa_per_dropback: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.epa_per_dropback"} */
+
+  
+    
+    
+
+    create  table
+      "football"."main"."epa_per_dropback__dbt_tmp"
+  
+    as (
+      select
+    passer_player_name,
+    posteam as team,
+    season,
+    week,
+    count(*) as dropbacks,
+    sum(epa) as total_epa,
+    avg(epa) as epa_per_dropback
+from "football"."main"."plays"
+where qb_dropback = 1 and passer_player_name is NOT NULL
+group by passer_player_name, posteam, season, week
+order by passer_player_name, season, week
+    );
+  
+  
+[0m10:24:24.149396 [debug] [Thread-1 (]: SQL status: OK in 0.011 seconds
+[0m10:24:24.149847 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.epa_per_dropback"
+[0m10:24:24.149966 [debug] [Thread-1 (]: On model.football_data_engineering.epa_per_dropback: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.epa_per_dropback"} */
+
+    SELECT index_name
+    FROM duckdb_indexes()
+    WHERE schema_name = 'main'
+      AND table_name = 'epa_per_dropback'
+  
+[0m10:24:24.150239 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:24.150633 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.epa_per_dropback"
+[0m10:24:24.150732 [debug] [Thread-1 (]: On model.football_data_engineering.epa_per_dropback: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.epa_per_dropback"} */
+
+    SELECT COUNT(*) as remaining_indexes
+    FROM duckdb_indexes()
+    WHERE schema_name = 'main'
+      AND table_name = 'epa_per_dropback'
+  
+[0m10:24:24.150971 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:24.152054 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.epa_per_dropback"
+[0m10:24:24.152180 [debug] [Thread-1 (]: On model.football_data_engineering.epa_per_dropback: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.epa_per_dropback"} */
+alter table "football"."main"."epa_per_dropback" rename to "epa_per_dropback__dbt_backup"
+[0m10:24:24.152396 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:24.153214 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.epa_per_dropback"
+[0m10:24:24.153331 [debug] [Thread-1 (]: On model.football_data_engineering.epa_per_dropback: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.epa_per_dropback"} */
+alter table "football"."main"."epa_per_dropback__dbt_tmp" rename to "epa_per_dropback"
+[0m10:24:24.153516 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:24.154011 [debug] [Thread-1 (]: On model.football_data_engineering.epa_per_dropback: COMMIT
+[0m10:24:24.154121 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.epa_per_dropback"
+[0m10:24:24.154229 [debug] [Thread-1 (]: On model.football_data_engineering.epa_per_dropback: COMMIT
+[0m10:24:24.154618 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:24.155459 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.epa_per_dropback"
+[0m10:24:24.155562 [debug] [Thread-1 (]: On model.football_data_engineering.epa_per_dropback: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.epa_per_dropback"} */
+
+      drop table if exists "football"."main"."epa_per_dropback__dbt_backup" cascade
+    
+[0m10:24:24.155809 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:24.156183 [debug] [Thread-1 (]: On model.football_data_engineering.epa_per_dropback: Close
+[0m10:24:24.156364 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0939a3e1-baac-404e-af45-a7850fddb73f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bfbef90>]}
+[0m10:24:24.156582 [info ] [Thread-1 (]: 5 of 14 OK created sql table model main.epa_per_dropback ....................... [[32mOK[0m in 0.02s]
+[0m10:24:24.156749 [debug] [Thread-1 (]: Finished running node model.football_data_engineering.epa_per_dropback
+[0m10:24:24.156868 [debug] [Thread-1 (]: Began running node model.football_data_engineering.int_rusher_names
+[0m10:24:24.157023 [info ] [Thread-1 (]: 6 of 14 START sql table model main.int_rusher_names ............................ [RUN]
+[0m10:24:24.157153 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.football_data_engineering.epa_per_dropback, now model.football_data_engineering.int_rusher_names)
+[0m10:24:24.157253 [debug] [Thread-1 (]: Began compiling node model.football_data_engineering.int_rusher_names
+[0m10:24:24.158092 [debug] [Thread-1 (]: Writing injected SQL for node "model.football_data_engineering.int_rusher_names"
+[0m10:24:25.325063 [debug] [Thread-1 (]: Began executing node model.football_data_engineering.int_rusher_names
+[0m10:24:25.329674 [debug] [Thread-1 (]: Writing runtime sql for node "model.football_data_engineering.int_rusher_names"
+[0m10:24:26.410891 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.int_rusher_names"
+[0m10:24:26.411354 [debug] [Thread-1 (]: On model.football_data_engineering.int_rusher_names: BEGIN
+[0m10:24:26.411598 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m10:24:26.412573 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m10:24:26.412948 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.int_rusher_names"
+[0m10:24:26.413297 [debug] [Thread-1 (]: On model.football_data_engineering.int_rusher_names: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.int_rusher_names"} */
+
+  
+    
+    
+
+    create  table
+      "football"."main"."int_rusher_names__dbt_tmp"
+  
+    as (
+      with cleaned as (
+    select
+        rusher_player_id,
+        regexp_replace(rusher_player_name, '\.(\S)', '. \1') as rusher_player_name,
+        count(*) as usage_count
+    from "football"."main"."plays"
+    where rusher_player_id is not null
+      and rusher_player_name is not null
+    group by rusher_player_id, regexp_replace(rusher_player_name, '\.(\S)', '. \1')
+),
+
+ranked as (
+    select
+        rusher_player_id,
+        rusher_player_name,
+        row_number() over (
+            partition by rusher_player_id
+            order by usage_count desc
+        ) as rn
+    from cleaned
+)
+
+select
+    rusher_player_id,
+    rusher_player_name as canonical_name
+from ranked
+where rn = 1
+    );
+  
+  
+[0m10:24:26.427595 [debug] [Thread-1 (]: SQL status: OK in 0.014 seconds
+[0m10:24:26.428480 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.int_rusher_names"
+[0m10:24:26.428713 [debug] [Thread-1 (]: On model.football_data_engineering.int_rusher_names: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.int_rusher_names"} */
+
+    SELECT index_name
+    FROM duckdb_indexes()
+    WHERE schema_name = 'main'
+      AND table_name = 'int_rusher_names'
+  
+[0m10:24:26.429199 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:26.429867 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.int_rusher_names"
+[0m10:24:26.430059 [debug] [Thread-1 (]: On model.football_data_engineering.int_rusher_names: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.int_rusher_names"} */
+
+    SELECT COUNT(*) as remaining_indexes
+    FROM duckdb_indexes()
+    WHERE schema_name = 'main'
+      AND table_name = 'int_rusher_names'
+  
+[0m10:24:26.430492 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:26.432302 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.int_rusher_names"
+[0m10:24:26.432499 [debug] [Thread-1 (]: On model.football_data_engineering.int_rusher_names: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.int_rusher_names"} */
+alter table "football"."main"."int_rusher_names" rename to "int_rusher_names__dbt_backup"
+[0m10:24:26.432810 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:26.434063 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.int_rusher_names"
+[0m10:24:26.434241 [debug] [Thread-1 (]: On model.football_data_engineering.int_rusher_names: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.int_rusher_names"} */
+alter table "football"."main"."int_rusher_names__dbt_tmp" rename to "int_rusher_names"
+[0m10:24:26.434499 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:26.435707 [debug] [Thread-1 (]: On model.football_data_engineering.int_rusher_names: COMMIT
+[0m10:24:26.435878 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.int_rusher_names"
+[0m10:24:26.436032 [debug] [Thread-1 (]: On model.football_data_engineering.int_rusher_names: COMMIT
+[0m10:24:26.436550 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:26.437548 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.int_rusher_names"
+[0m10:24:26.437714 [debug] [Thread-1 (]: On model.football_data_engineering.int_rusher_names: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.int_rusher_names"} */
+
+      drop table if exists "football"."main"."int_rusher_names__dbt_backup" cascade
+    
+[0m10:24:26.438092 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:26.438659 [debug] [Thread-1 (]: On model.football_data_engineering.int_rusher_names: Close
+[0m10:24:26.438921 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0939a3e1-baac-404e-af45-a7850fddb73f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bfbe5d0>]}
+[0m10:24:26.439220 [info ] [Thread-1 (]: 6 of 14 OK created sql table model main.int_rusher_names ....................... [[32mOK[0m in 2.28s]
+[0m10:24:26.439456 [debug] [Thread-1 (]: Finished running node model.football_data_engineering.int_rusher_names
+[0m10:24:26.439616 [debug] [Thread-1 (]: Began running node model.football_data_engineering.jumbo_plays
+[0m10:24:26.439838 [info ] [Thread-1 (]: 7 of 14 START sql table model main.jumbo_plays ................................. [RUN]
+[0m10:24:26.440084 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.football_data_engineering.int_rusher_names, now model.football_data_engineering.jumbo_plays)
+[0m10:24:26.440265 [debug] [Thread-1 (]: Began compiling node model.football_data_engineering.jumbo_plays
+[0m10:24:26.441625 [debug] [Thread-1 (]: Writing injected SQL for node "model.football_data_engineering.jumbo_plays"
+[0m10:24:26.442062 [debug] [Thread-1 (]: Began executing node model.football_data_engineering.jumbo_plays
+[0m10:24:26.443629 [debug] [Thread-1 (]: Writing runtime sql for node "model.football_data_engineering.jumbo_plays"
+[0m10:24:26.443943 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.jumbo_plays"
+[0m10:24:26.444086 [debug] [Thread-1 (]: On model.football_data_engineering.jumbo_plays: BEGIN
+[0m10:24:26.444220 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m10:24:26.444452 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:26.444581 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.jumbo_plays"
+[0m10:24:26.444757 [debug] [Thread-1 (]: On model.football_data_engineering.jumbo_plays: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.jumbo_plays"} */
+
+  
+    
+    
+
+    create  table
+      "football"."main"."jumbo_plays__dbt_tmp"
+  
+    as (
+      -- Gold: jumbo formation plays (desc-based detection)
+--
+-- Flags every offensive scrimmage play with at least one "reported in as
+-- eligible" event in the description. See tutorials/querying_jumbo_formations.md
+-- for the methodology, gotchas, and limitations.
+--
+-- Caveats handled here:
+--   - Pass/rush filter excludes FG / punt / kickoff / kneel
+--   - Broader regex catches 2013 phrasing variants
+--   - LA -> LAR normalization happens upstream in silver/plays.sql
+-- Caveat NOT handled (limitation of desc-only method):
+--   - Misses ~20% of true jumbo plays where the extra OL is covered
+--     (no eligibility report required). For full coverage, join
+--     participation data (offense_numbers field) and count ineligible-
+--     numbered players >= 6.
+
+SELECT
+    season,
+    week,
+    season_type,
+    posteam,
+    defteam,
+    game_id,
+    play_id,
+    down,
+    ydstogo,
+    yardline_100,
+    score_differential,
+    play_type,
+    pass,
+    rush,
+    yards_gained,
+    epa,
+    desc,
+    -- Convenience: number of distinct reporters on this play
+    -- (handles multi-reporter plays like Heck + Vea on TB goal line)
+    array_length(
+        regexp_extract_all(desc, '\d+-[A-Z]\.\S+ reported in as eligible')
+    ) as n_reporters,
+    -- Field position bucket for goal-line vs midfield slicing
+    case
+        when yardline_100 <= 5  then 'Inside 5'
+        when yardline_100 <= 10 then '5-10 yard line'
+        when yardline_100 <= 20 then '10-20 yard line'
+        when yardline_100 <= 40 then '20-40 yard line'
+        else                         'Own territory'
+    end as field_zone
+FROM "football"."main"."plays"
+WHERE season_type = 'REG'
+  AND posteam IS NOT NULL
+  AND (pass = 1 OR rush = 1)
+  AND regexp_matches(desc, '(reported|reports)( in)? as eligible')
+    );
+  
+  
+[0m10:24:26.445700 [debug] [Thread-1 (]: DuckDB adapter: duckdb error: Parser Error: syntax error at or near "desc"
+
+LINE 44:     desc,
+             ^
+[0m10:24:26.445892 [debug] [Thread-1 (]: DuckDB adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.jumbo_plays"} */
+
+  
+    
+    
+
+    create  table
+      "football"."main"."jumbo_plays__dbt_tmp"
+  
+    as (
+      -- Gold: jumbo formation plays (desc-based detection)
+--
+-- Flags every offensive scrimmage play with at least one "reported in as
+-- eligible" event in the description. See tutorials/querying_jumbo_formations.md
+-- for the methodology, gotchas, and limitations.
+--
+-- Caveats handled here:
+--   - Pass/rush filter excludes FG / punt / kickoff / kneel
+--   - Broader regex catches 2013 phrasing variants
+--   - LA -> LAR normalization happens upstream in silver/plays.sql
+-- Caveat NOT handled (limitation of desc-only method):
+--   - Misses ~20% of true jumbo plays where the extra OL is covered
+--     (no eligibility report required). For full coverage, join
+--     participation data (offense_numbers field) and count ineligible-
+--     numbered players >= 6.
+
+SELECT
+    season,
+    week,
+    season_type,
+    posteam,
+    defteam,
+    game_id,
+    play_id,
+    down,
+    ydstogo,
+    yardline_100,
+    score_differential,
+    play_type,
+    pass,
+    rush,
+    yards_gained,
+    epa,
+    desc,
+    -- Convenience: number of distinct reporters on this play
+    -- (handles multi-reporter plays like Heck + Vea on TB goal line)
+    array_length(
+        regexp_extract_all(desc, '\d+-[A-Z]\.\S+ reported in as eligible')
+    ) as n_reporters,
+    -- Field position bucket for goal-line vs midfield slicing
+    case
+        when yardline_100 <= 5  then 'Inside 5'
+        when yardline_100 <= 10 then '5-10 yard line'
+        when yardline_100 <= 20 then '10-20 yard line'
+        when yardline_100 <= 40 then '20-40 yard line'
+        else                         'Own territory'
+    end as field_zone
+FROM "football"."main"."plays"
+WHERE season_type = 'REG'
+  AND posteam IS NOT NULL
+  AND (pass = 1 OR rush = 1)
+  AND regexp_matches(desc, '(reported|reports)( in)? as eligible')
+    );
+  
+  
+[0m10:24:26.446061 [debug] [Thread-1 (]: DuckDB adapter: Rolling back transaction.
+[0m10:24:26.446201 [debug] [Thread-1 (]: On model.football_data_engineering.jumbo_plays: ROLLBACK
+[0m10:24:26.447290 [debug] [Thread-1 (]: Failed to rollback 'model.football_data_engineering.jumbo_plays'
+[0m10:24:26.447500 [debug] [Thread-1 (]: On model.football_data_engineering.jumbo_plays: Close
+[0m10:24:26.450752 [debug] [Thread-1 (]: Runtime Error in model jumbo_plays (models/gold/jumbo_plays.sql)
+  Parser Error: syntax error at or near "desc"
+  
+  LINE 44:     desc,
+               ^
+[0m10:24:26.450957 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0939a3e1-baac-404e-af45-a7850fddb73f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bfbff50>]}
+[0m10:24:26.451216 [error] [Thread-1 (]: 7 of 14 ERROR creating sql table model main.jumbo_plays ........................ [[31mERROR[0m in 0.01s]
+[0m10:24:26.451430 [debug] [Thread-1 (]: Finished running node model.football_data_engineering.jumbo_plays
+[0m10:24:26.451571 [debug] [Thread-1 (]: Began running node model.football_data_engineering.jumbo_plays_full
+[0m10:24:26.451754 [debug] [Thread-4 (]: Marking all children of 'model.football_data_engineering.jumbo_plays' to be skipped because of status 'error'.  Reason: Runtime Error in model jumbo_plays (models/gold/jumbo_plays.sql)
+  Parser Error: syntax error at or near "desc"
+  
+  LINE 44:     desc,
+               ^.
+[0m10:24:26.451924 [info ] [Thread-1 (]: 8 of 14 START sql table model main.jumbo_plays_full ............................ [RUN]
+[0m10:24:26.452415 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.football_data_engineering.jumbo_plays, now model.football_data_engineering.jumbo_plays_full)
+[0m10:24:26.452563 [debug] [Thread-1 (]: Began compiling node model.football_data_engineering.jumbo_plays_full
+[0m10:24:26.454113 [debug] [Thread-1 (]: Writing injected SQL for node "model.football_data_engineering.jumbo_plays_full"
+[0m10:24:26.454479 [debug] [Thread-1 (]: Began executing node model.football_data_engineering.jumbo_plays_full
+[0m10:24:26.456057 [debug] [Thread-1 (]: Writing runtime sql for node "model.football_data_engineering.jumbo_plays_full"
+[0m10:24:26.456383 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.jumbo_plays_full"
+[0m10:24:26.456512 [debug] [Thread-1 (]: On model.football_data_engineering.jumbo_plays_full: BEGIN
+[0m10:24:26.456632 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m10:24:26.456926 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:26.457039 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.jumbo_plays_full"
+[0m10:24:26.457239 [debug] [Thread-1 (]: On model.football_data_engineering.jumbo_plays_full: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.jumbo_plays_full"} */
+
+  
+    
+    
+
+    create  table
+      "football"."main"."jumbo_plays_full__dbt_tmp"
+  
+    as (
+      -- Gold: jumbo formation plays — FULL coverage (participation + desc).
+--
+-- Combines two detection methods into a single per-play table:
+--   is_jumbo_jersey  = participation says 6+ ineligible-numbered players
+--                       (50-79 or 90-99) on the field. Catches "covered"
+--                       extra-OL plays that don't require a report.
+--   is_jumbo_desc    = desc text contains an eligibility report. Catches
+--                       declared-eligible jumbo plays even when participation
+--                       data is missing for that snap (~6% of plays in 2025).
+--
+-- A play is is_jumbo if EITHER method flags it. Use this model when you
+-- want the most complete jumbo count. Use jumbo_plays.sql (desc-only) when
+-- you specifically want plays involving an eligibility declaration.
+--
+-- NOTES:
+--   - Requires participation data downloaded (download_participation.py).
+--   - offense_numbers is only populated 2023+. Pre-2023, only the desc
+--     signal is usable here. For 2016-2022 you'd need a roster-position
+--     fallback (lookup gsis_id -> position OL); see the R companion script
+--     in nfl-assets/jumbo/jumbo_multi_season.R.
+
+with desc_jumbo as (
+    select
+        season, week, season_type, posteam, defteam,
+        game_id, play_id, down, ydstogo, yardline_100,
+        score_differential, play_type, pass, rush,
+        yards_gained, epa, desc,
+        true as is_jumbo_desc,
+        -- Number of distinct reporters on this play (multi-reporter handling)
+        array_length(
+            regexp_extract_all(desc, '\d+-[A-Z]\.\S+ reported in as eligible')
+        ) as n_reporters
+    from "football"."main"."plays"
+    where season_type = 'REG'
+      and posteam is not null
+      and (pass = 1 or rush = 1)
+      and regexp_matches(desc, '(reported|reports)( in)? as eligible')
+),
+
+jersey_jumbo as (
+    -- Limit participation join to offensive scrimmage plays
+    select
+        p.game_id,
+        p.play_id,
+        part.n_ineligible_numbered,
+        part.offense_personnel,
+        true as is_jumbo_jersey
+    from "football"."main"."plays" p
+    inner join "football"."main"."participation" part
+        on p.game_id = part.game_id
+       and p.play_id = part.play_id
+    where p.season_type = 'REG'
+      and p.posteam is not null
+      and (p.pass = 1 or p.rush = 1)
+      and part.n_ineligible_numbered >= 6
+),
+
+-- All plays flagged by either method
+combined_keys as (
+    select game_id, play_id from desc_jumbo
+    union
+    select game_id, play_id from jersey_jumbo
+)
+
+select
+    p.season,
+    p.week,
+    p.season_type,
+    p.posteam,
+    p.defteam,
+    p.game_id,
+    p.play_id,
+    p.down,
+    p.ydstogo,
+    p.yardline_100,
+    p.score_differential,
+    p.play_type,
+    p.pass,
+    p.rush,
+    p.yards_gained,
+    p.epa,
+    p.desc,
+    coalesce(d.is_jumbo_desc,   false) as is_jumbo_desc,
+    coalesce(j.is_jumbo_jersey, false) as is_jumbo_jersey,
+    coalesce(d.n_reporters, 0)         as n_reporters,
+    j.n_ineligible_numbered,
+    j.offense_personnel,
+    case
+        when yardline_100 <= 5  then 'Inside 5'
+        when yardline_100 <= 10 then '5-10 yard line'
+        when yardline_100 <= 20 then '10-20 yard line'
+        when yardline_100 <= 40 then '20-40 yard line'
+        else                         'Own territory'
+    end as field_zone
+from "football"."main"."plays" p
+inner join combined_keys ck
+    on p.game_id = ck.game_id
+   and p.play_id = ck.play_id
+left join desc_jumbo d
+    on p.game_id = d.game_id
+   and p.play_id = d.play_id
+left join jersey_jumbo j
+    on p.game_id = j.game_id
+   and p.play_id = j.play_id
+    );
+  
+  
+[0m10:24:26.457611 [debug] [Thread-1 (]: DuckDB adapter: duckdb error: Parser Error: syntax error at or near "desc"
+
+LINE 37:         yards_gained, epa, desc,
+                                  ^
+[0m10:24:26.457803 [debug] [Thread-1 (]: DuckDB adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.jumbo_plays_full"} */
+
+  
+    
+    
+
+    create  table
+      "football"."main"."jumbo_plays_full__dbt_tmp"
+  
+    as (
+      -- Gold: jumbo formation plays — FULL coverage (participation + desc).
+--
+-- Combines two detection methods into a single per-play table:
+--   is_jumbo_jersey  = participation says 6+ ineligible-numbered players
+--                       (50-79 or 90-99) on the field. Catches "covered"
+--                       extra-OL plays that don't require a report.
+--   is_jumbo_desc    = desc text contains an eligibility report. Catches
+--                       declared-eligible jumbo plays even when participation
+--                       data is missing for that snap (~6% of plays in 2025).
+--
+-- A play is is_jumbo if EITHER method flags it. Use this model when you
+-- want the most complete jumbo count. Use jumbo_plays.sql (desc-only) when
+-- you specifically want plays involving an eligibility declaration.
+--
+-- NOTES:
+--   - Requires participation data downloaded (download_participation.py).
+--   - offense_numbers is only populated 2023+. Pre-2023, only the desc
+--     signal is usable here. For 2016-2022 you'd need a roster-position
+--     fallback (lookup gsis_id -> position OL); see the R companion script
+--     in nfl-assets/jumbo/jumbo_multi_season.R.
+
+with desc_jumbo as (
+    select
+        season, week, season_type, posteam, defteam,
+        game_id, play_id, down, ydstogo, yardline_100,
+        score_differential, play_type, pass, rush,
+        yards_gained, epa, desc,
+        true as is_jumbo_desc,
+        -- Number of distinct reporters on this play (multi-reporter handling)
+        array_length(
+            regexp_extract_all(desc, '\d+-[A-Z]\.\S+ reported in as eligible')
+        ) as n_reporters
+    from "football"."main"."plays"
+    where season_type = 'REG'
+      and posteam is not null
+      and (pass = 1 or rush = 1)
+      and regexp_matches(desc, '(reported|reports)( in)? as eligible')
+),
+
+jersey_jumbo as (
+    -- Limit participation join to offensive scrimmage plays
+    select
+        p.game_id,
+        p.play_id,
+        part.n_ineligible_numbered,
+        part.offense_personnel,
+        true as is_jumbo_jersey
+    from "football"."main"."plays" p
+    inner join "football"."main"."participation" part
+        on p.game_id = part.game_id
+       and p.play_id = part.play_id
+    where p.season_type = 'REG'
+      and p.posteam is not null
+      and (p.pass = 1 or p.rush = 1)
+      and part.n_ineligible_numbered >= 6
+),
+
+-- All plays flagged by either method
+combined_keys as (
+    select game_id, play_id from desc_jumbo
+    union
+    select game_id, play_id from jersey_jumbo
+)
+
+select
+    p.season,
+    p.week,
+    p.season_type,
+    p.posteam,
+    p.defteam,
+    p.game_id,
+    p.play_id,
+    p.down,
+    p.ydstogo,
+    p.yardline_100,
+    p.score_differential,
+    p.play_type,
+    p.pass,
+    p.rush,
+    p.yards_gained,
+    p.epa,
+    p.desc,
+    coalesce(d.is_jumbo_desc,   false) as is_jumbo_desc,
+    coalesce(j.is_jumbo_jersey, false) as is_jumbo_jersey,
+    coalesce(d.n_reporters, 0)         as n_reporters,
+    j.n_ineligible_numbered,
+    j.offense_personnel,
+    case
+        when yardline_100 <= 5  then 'Inside 5'
+        when yardline_100 <= 10 then '5-10 yard line'
+        when yardline_100 <= 20 then '10-20 yard line'
+        when yardline_100 <= 40 then '20-40 yard line'
+        else                         'Own territory'
+    end as field_zone
+from "football"."main"."plays" p
+inner join combined_keys ck
+    on p.game_id = ck.game_id
+   and p.play_id = ck.play_id
+left join desc_jumbo d
+    on p.game_id = d.game_id
+   and p.play_id = d.play_id
+left join jersey_jumbo j
+    on p.game_id = j.game_id
+   and p.play_id = j.play_id
+    );
+  
+  
+[0m10:24:26.457991 [debug] [Thread-1 (]: DuckDB adapter: Rolling back transaction.
+[0m10:24:26.458100 [debug] [Thread-1 (]: On model.football_data_engineering.jumbo_plays_full: ROLLBACK
+[0m10:24:26.458572 [debug] [Thread-1 (]: Failed to rollback 'model.football_data_engineering.jumbo_plays_full'
+[0m10:24:26.458733 [debug] [Thread-1 (]: On model.football_data_engineering.jumbo_plays_full: Close
+[0m10:24:26.460313 [debug] [Thread-1 (]: Runtime Error in model jumbo_plays_full (models/gold/jumbo_plays_full.sql)
+  Parser Error: syntax error at or near "desc"
+  
+  LINE 37:         yards_gained, epa, desc,
+                                    ^
+[0m10:24:26.460497 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0939a3e1-baac-404e-af45-a7850fddb73f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c0bd670>]}
+[0m10:24:26.460725 [error] [Thread-1 (]: 8 of 14 ERROR creating sql table model main.jumbo_plays_full ................... [[31mERROR[0m in 0.01s]
+[0m10:24:26.460922 [debug] [Thread-1 (]: Finished running node model.football_data_engineering.jumbo_plays_full
+[0m10:24:26.461052 [debug] [Thread-1 (]: Began running node model.football_data_engineering.plays_jumbo
+[0m10:24:26.461212 [debug] [Thread-4 (]: Marking all children of 'model.football_data_engineering.jumbo_plays_full' to be skipped because of status 'error'.  Reason: Runtime Error in model jumbo_plays_full (models/gold/jumbo_plays_full.sql)
+  Parser Error: syntax error at or near "desc"
+  
+  LINE 37:         yards_gained, epa, desc,
+                                    ^.
+[0m10:24:26.461369 [info ] [Thread-1 (]: 9 of 14 START sql table model main.plays_jumbo ................................. [RUN]
+[0m10:24:26.461554 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.football_data_engineering.jumbo_plays_full, now model.football_data_engineering.plays_jumbo)
+[0m10:24:26.461674 [debug] [Thread-1 (]: Began compiling node model.football_data_engineering.plays_jumbo
+[0m10:24:26.462716 [debug] [Thread-1 (]: Writing injected SQL for node "model.football_data_engineering.plays_jumbo"
+[0m10:24:26.462977 [debug] [Thread-1 (]: Began executing node model.football_data_engineering.plays_jumbo
+[0m10:24:26.464027 [debug] [Thread-1 (]: Writing runtime sql for node "model.football_data_engineering.plays_jumbo"
+[0m10:24:26.464289 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.plays_jumbo"
+[0m10:24:26.464406 [debug] [Thread-1 (]: On model.football_data_engineering.plays_jumbo: BEGIN
+[0m10:24:26.464513 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m10:24:26.464781 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:26.464885 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.plays_jumbo"
+[0m10:24:26.465017 [debug] [Thread-1 (]: On model.football_data_engineering.plays_jumbo: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.plays_jumbo"} */
+
+  
+    
+    
+
+    create  table
+      "football"."main"."plays_jumbo__dbt_tmp"
+  
+    as (
+      -- Adds a binary jumbo indicator to all plays.
+-- A play is "jumbo" when an ineligible-number player (typically OL/DL)
+-- reports in as eligible, signaling an extra blocker on the field.
+--
+-- Detection: search for eligible-reporting language in the play description.
+-- The primary pattern (2003+) is "XX-Name reported in as eligible".
+-- Earlier seasons (2002) use varied phrasing: "reports as eligible",
+-- "is an eligible receiver", "eligible" next to a jersey number, etc.
+--
+-- Also extracts the reporting player's jersey number and abbreviated name
+-- when the modern format is used.
+--
+-- Validated against nflfastR participation data (2021-2025):
+--   98.9% of flagged plays have 6+ OL on the field.
+--   The ~1% with 5 OL are DL/LB types (e.g. Vita Vea) reporting eligible.
+
+select
+    *,
+    case
+        when "desc" like '%reported in as eligible%' then 1
+        when "desc" like '%reports as eligible%' then 1
+        when "desc" like '%reports in as eligible%' then 1
+        when "desc" like '%reports eligible%' then 1
+        when "desc" like '%reported as eligible%' then 1
+        when "desc" like '%in as eligible receiver%' then 1
+        when "desc" like '%is an eligible receiver%' then 1
+        when "desc" like '%is eligible receiver%' then 1
+        when regexp_matches("desc", '#?\d+[\s\-]?\w*\s+eligible') then 1
+        else 0
+    end as is_jumbo,
+    regexp_extract("desc", '(\d+-[A-Z]\.[A-Za-z''\-]+) reported in as eligible', 1)
+        as jumbo_player_raw,
+    try_cast(
+        regexp_extract("desc", '(\d+)-[A-Z]\.[A-Za-z''\-]+ reported in as eligible', 1)
+        as integer
+    ) as jumbo_player_jersey
+from "football"."main"."plays"
+    );
+  
+  
+[0m10:24:27.153483 [debug] [Thread-1 (]: SQL status: OK in 0.688 seconds
+[0m10:24:27.154904 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.plays_jumbo"
+[0m10:24:27.155039 [debug] [Thread-1 (]: On model.football_data_engineering.plays_jumbo: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.plays_jumbo"} */
+alter table "football"."main"."plays_jumbo__dbt_tmp" rename to "plays_jumbo"
+[0m10:24:27.155370 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:27.155879 [debug] [Thread-1 (]: On model.football_data_engineering.plays_jumbo: COMMIT
+[0m10:24:27.155991 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.plays_jumbo"
+[0m10:24:27.156092 [debug] [Thread-1 (]: On model.football_data_engineering.plays_jumbo: COMMIT
+[0m10:24:28.088310 [debug] [Thread-1 (]: SQL status: OK in 0.932 seconds
+[0m10:24:28.089926 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.plays_jumbo"
+[0m10:24:28.090055 [debug] [Thread-1 (]: On model.football_data_engineering.plays_jumbo: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.plays_jumbo"} */
+
+      drop table if exists "football"."main"."plays_jumbo__dbt_backup" cascade
+    
+[0m10:24:28.090306 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:28.090777 [debug] [Thread-1 (]: On model.football_data_engineering.plays_jumbo: Close
+[0m10:24:28.090964 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0939a3e1-baac-404e-af45-a7850fddb73f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bfbfb30>]}
+[0m10:24:28.091177 [info ] [Thread-1 (]: 9 of 14 OK created sql table model main.plays_jumbo ............................ [[32mOK[0m in 1.63s]
+[0m10:24:28.091969 [debug] [Thread-1 (]: Finished running node model.football_data_engineering.plays_jumbo
+[0m10:24:28.092110 [debug] [Thread-1 (]: Began running node model.football_data_engineering.two_qb_plays
+[0m10:24:28.092271 [info ] [Thread-1 (]: 10 of 14 START sql table model main.two_qb_plays ............................... [RUN]
+[0m10:24:28.092408 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.football_data_engineering.plays_jumbo, now model.football_data_engineering.two_qb_plays)
+[0m10:24:28.092510 [debug] [Thread-1 (]: Began compiling node model.football_data_engineering.two_qb_plays
+[0m10:24:28.094584 [debug] [Thread-1 (]: Writing injected SQL for node "model.football_data_engineering.two_qb_plays"
+[0m10:24:28.094842 [debug] [Thread-1 (]: Began executing node model.football_data_engineering.two_qb_plays
+[0m10:24:28.095742 [debug] [Thread-1 (]: Writing runtime sql for node "model.football_data_engineering.two_qb_plays"
+[0m10:24:28.096427 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.two_qb_plays"
+[0m10:24:28.096530 [debug] [Thread-1 (]: On model.football_data_engineering.two_qb_plays: BEGIN
+[0m10:24:28.096622 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m10:24:28.096805 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:28.096901 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.two_qb_plays"
+[0m10:24:28.097026 [debug] [Thread-1 (]: On model.football_data_engineering.two_qb_plays: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.two_qb_plays"} */
+
+  
+    
+    
+
+    create  table
+      "football"."main"."two_qb_plays__dbt_tmp"
+  
+    as (
+      -- Gold: two-quarterback plays
+--
+-- A "two-QB play" has 2+ players lined up at QB on an offensive scrimmage
+-- snap -- think the Saints' Taysom Hill packages, where Hill lines up next to
+-- the passer. We detect it from participation data (offense_positions), the
+-- same feed Part 2 used for jumbo formations. The two models are mirror
+-- images of each other:
+--
+--   jumbo  = 6+ players with ineligible jersey numbers   (n_ineligible_numbered)
+--   two-QB = 2+ players at the QB position                (n_qb)
+--
+-- Same two gotchas as the jumbo model:
+--   1. Filter to real scrimmage plays (pass = 1 OR rush = 1). Special teams
+--      formations list strange "offense" positions (whole punt/kick units)
+--      and would pollute the count.
+--   2. offense_positions is only populated 2023+ in the nflverse feed, so
+--      this model only has data for recent seasons.
+
+SELECT
+    p.season,
+    p.week,
+    p.posteam as team,
+    p.game_id,
+    p.play_id,
+    p.down,
+    p.ydstogo,
+    p.yardline_100,
+    p.play_type,
+    p.pass,
+    p.rush,
+    p.yards_gained,
+    p.epa,
+    part.n_qb,
+    part.offense_personnel,
+    p.desc
+FROM "football"."main"."plays" p
+JOIN "football"."main"."participation" part
+  ON p.game_id = part.game_id AND p.play_id = part.play_id
+WHERE p.season_type = 'REG'
+  AND p.posteam IS NOT NULL
+  AND (p.pass = 1 OR p.rush = 1)
+  AND part.n_qb >= 2
+    );
+  
+  
+[0m10:24:28.105798 [debug] [Thread-1 (]: SQL status: OK in 0.009 seconds
+[0m10:24:28.106862 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.two_qb_plays"
+[0m10:24:28.106975 [debug] [Thread-1 (]: On model.football_data_engineering.two_qb_plays: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.two_qb_plays"} */
+alter table "football"."main"."two_qb_plays__dbt_tmp" rename to "two_qb_plays"
+[0m10:24:28.107194 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:28.107645 [debug] [Thread-1 (]: On model.football_data_engineering.two_qb_plays: COMMIT
+[0m10:24:28.107744 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.two_qb_plays"
+[0m10:24:28.107836 [debug] [Thread-1 (]: On model.football_data_engineering.two_qb_plays: COMMIT
+[0m10:24:28.108272 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:28.109126 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.two_qb_plays"
+[0m10:24:28.109240 [debug] [Thread-1 (]: On model.football_data_engineering.two_qb_plays: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.two_qb_plays"} */
+
+      drop table if exists "football"."main"."two_qb_plays__dbt_backup" cascade
+    
+[0m10:24:28.109422 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:28.109845 [debug] [Thread-1 (]: On model.football_data_engineering.two_qb_plays: Close
+[0m10:24:28.110018 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0939a3e1-baac-404e-af45-a7850fddb73f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c07b530>]}
+[0m10:24:28.110231 [info ] [Thread-1 (]: 10 of 14 OK created sql table model main.two_qb_plays .......................... [[32mOK[0m in 0.02s]
+[0m10:24:28.110408 [debug] [Thread-1 (]: Finished running node model.football_data_engineering.two_qb_plays
+[0m10:24:28.110523 [debug] [Thread-1 (]: Began running node model.football_data_engineering.rushing_gap_stats
+[0m10:24:28.110667 [info ] [Thread-1 (]: 11 of 14 START sql table model main.rushing_gap_stats .......................... [RUN]
+[0m10:24:28.110822 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.football_data_engineering.two_qb_plays, now model.football_data_engineering.rushing_gap_stats)
+[0m10:24:28.110931 [debug] [Thread-1 (]: Began compiling node model.football_data_engineering.rushing_gap_stats
+[0m10:24:28.111851 [debug] [Thread-1 (]: Writing injected SQL for node "model.football_data_engineering.rushing_gap_stats"
+[0m10:24:28.787733 [debug] [Thread-1 (]: Began executing node model.football_data_engineering.rushing_gap_stats
+[0m10:24:28.792685 [debug] [Thread-1 (]: Writing runtime sql for node "model.football_data_engineering.rushing_gap_stats"
+[0m10:24:29.821621 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.rushing_gap_stats"
+[0m10:24:29.822207 [debug] [Thread-1 (]: On model.football_data_engineering.rushing_gap_stats: BEGIN
+[0m10:24:29.822562 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m10:24:29.823193 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m10:24:29.823438 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.rushing_gap_stats"
+[0m10:24:29.823694 [debug] [Thread-1 (]: On model.football_data_engineering.rushing_gap_stats: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.rushing_gap_stats"} */
+
+  
+    
+    
+
+    create  table
+      "football"."main"."rushing_gap_stats__dbt_tmp"
+  
+    as (
+      select
+    r.rusher_player_id,
+    cn.canonical_name as rusher_player_name,
+    r.posteam as team,
+    r.season,
+    r.run_location,
+    r.run_gap,
+    count(*) as carries,
+    sum(r.epa) as total_epa,
+    avg(r.epa) as epa_per_carry,
+    sum(r.yards_gained) as rushing_yards,
+    avg(r.yards_gained) as yards_per_carry
+from "football"."main"."plays" r
+inner join "football"."main"."int_rusher_names" cn
+    on r.rusher_player_id = cn.rusher_player_id
+where r.play_type = 'run'
+  and r.rusher_player_id is not null
+  and r.run_location is not null
+  and r.run_gap is not null
+group by r.rusher_player_id, cn.canonical_name, r.posteam, r.season, r.run_location, r.run_gap
+order by r.season, r.posteam, cn.canonical_name, r.run_location, r.run_gap
+    );
+  
+  
+[0m10:24:29.840903 [debug] [Thread-1 (]: SQL status: OK in 0.017 seconds
+[0m10:24:29.842058 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.rushing_gap_stats"
+[0m10:24:29.842373 [debug] [Thread-1 (]: On model.football_data_engineering.rushing_gap_stats: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.rushing_gap_stats"} */
+
+    SELECT index_name
+    FROM duckdb_indexes()
+    WHERE schema_name = 'main'
+      AND table_name = 'rushing_gap_stats'
+  
+[0m10:24:29.843113 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:29.844043 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.rushing_gap_stats"
+[0m10:24:29.844301 [debug] [Thread-1 (]: On model.football_data_engineering.rushing_gap_stats: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.rushing_gap_stats"} */
+
+    SELECT COUNT(*) as remaining_indexes
+    FROM duckdb_indexes()
+    WHERE schema_name = 'main'
+      AND table_name = 'rushing_gap_stats'
+  
+[0m10:24:29.844944 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:29.846944 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.rushing_gap_stats"
+[0m10:24:29.847166 [debug] [Thread-1 (]: On model.football_data_engineering.rushing_gap_stats: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.rushing_gap_stats"} */
+alter table "football"."main"."rushing_gap_stats" rename to "rushing_gap_stats__dbt_backup"
+[0m10:24:29.847538 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:29.849038 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.rushing_gap_stats"
+[0m10:24:29.849242 [debug] [Thread-1 (]: On model.football_data_engineering.rushing_gap_stats: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.rushing_gap_stats"} */
+alter table "football"."main"."rushing_gap_stats__dbt_tmp" rename to "rushing_gap_stats"
+[0m10:24:29.849550 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:29.850492 [debug] [Thread-1 (]: On model.football_data_engineering.rushing_gap_stats: COMMIT
+[0m10:24:29.850702 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.rushing_gap_stats"
+[0m10:24:29.850909 [debug] [Thread-1 (]: On model.football_data_engineering.rushing_gap_stats: COMMIT
+[0m10:24:29.851853 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m10:24:29.853546 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.rushing_gap_stats"
+[0m10:24:29.853765 [debug] [Thread-1 (]: On model.football_data_engineering.rushing_gap_stats: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.rushing_gap_stats"} */
+
+      drop table if exists "football"."main"."rushing_gap_stats__dbt_backup" cascade
+    
+[0m10:24:29.854222 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:29.854871 [debug] [Thread-1 (]: On model.football_data_engineering.rushing_gap_stats: Close
+[0m10:24:29.855188 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0939a3e1-baac-404e-af45-a7850fddb73f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bfbf650>]}
+[0m10:24:29.855547 [info ] [Thread-1 (]: 11 of 14 OK created sql table model main.rushing_gap_stats ..................... [[32mOK[0m in 1.74s]
+[0m10:24:29.855839 [debug] [Thread-1 (]: Finished running node model.football_data_engineering.rushing_gap_stats
+[0m10:24:29.856037 [debug] [Thread-1 (]: Began running node model.football_data_engineering.rushing_player_stats
+[0m10:24:29.856301 [info ] [Thread-1 (]: 12 of 14 START sql table model main.rushing_player_stats ....................... [RUN]
+[0m10:24:29.856517 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.football_data_engineering.rushing_gap_stats, now model.football_data_engineering.rushing_player_stats)
+[0m10:24:29.856701 [debug] [Thread-1 (]: Began compiling node model.football_data_engineering.rushing_player_stats
+[0m10:24:29.858194 [debug] [Thread-1 (]: Writing injected SQL for node "model.football_data_engineering.rushing_player_stats"
+[0m10:24:29.859063 [debug] [Thread-1 (]: Began executing node model.football_data_engineering.rushing_player_stats
+[0m10:24:29.861108 [debug] [Thread-1 (]: Writing runtime sql for node "model.football_data_engineering.rushing_player_stats"
+[0m10:24:29.861818 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.rushing_player_stats"
+[0m10:24:29.861993 [debug] [Thread-1 (]: On model.football_data_engineering.rushing_player_stats: BEGIN
+[0m10:24:29.862151 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m10:24:29.862499 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:29.862653 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.rushing_player_stats"
+[0m10:24:29.862822 [debug] [Thread-1 (]: On model.football_data_engineering.rushing_player_stats: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.rushing_player_stats"} */
+
+  
+    
+    
+
+    create  table
+      "football"."main"."rushing_player_stats__dbt_tmp"
+  
+    as (
+      select
+    r.rusher_player_id,
+    cn.canonical_name as rusher_player_name,
+    r.posteam as team,
+    r.season,
+    count(*) as carries,
+    sum(r.yards_gained) as rushing_yards,
+    sum(r.rush_touchdown) as rushing_tds,
+    sum(r.epa) as total_epa,
+    avg(r.epa) as epa_per_carry,
+    sum(r.fumble_lost) as fumbles_lost,
+    count(distinct r.game_id) as games
+from "football"."main"."plays" r
+inner join "football"."main"."int_rusher_names" cn
+    on r.rusher_player_id = cn.rusher_player_id
+where r.play_type = 'run'
+  and r.rusher_player_id is not null
+group by r.rusher_player_id, cn.canonical_name, r.posteam, r.season
+order by r.season, r.posteam, rushing_yards desc
+    );
+  
+  
+[0m10:24:29.871020 [debug] [Thread-1 (]: SQL status: OK in 0.008 seconds
+[0m10:24:29.871568 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.rushing_player_stats"
+[0m10:24:29.871721 [debug] [Thread-1 (]: On model.football_data_engineering.rushing_player_stats: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.rushing_player_stats"} */
+
+    SELECT index_name
+    FROM duckdb_indexes()
+    WHERE schema_name = 'main'
+      AND table_name = 'rushing_player_stats'
+  
+[0m10:24:29.872051 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:29.872550 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.rushing_player_stats"
+[0m10:24:29.872702 [debug] [Thread-1 (]: On model.football_data_engineering.rushing_player_stats: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.rushing_player_stats"} */
+
+    SELECT COUNT(*) as remaining_indexes
+    FROM duckdb_indexes()
+    WHERE schema_name = 'main'
+      AND table_name = 'rushing_player_stats'
+  
+[0m10:24:29.872990 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:29.874289 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.rushing_player_stats"
+[0m10:24:29.874434 [debug] [Thread-1 (]: On model.football_data_engineering.rushing_player_stats: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.rushing_player_stats"} */
+alter table "football"."main"."rushing_player_stats" rename to "rushing_player_stats__dbt_backup"
+[0m10:24:29.874669 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:29.875630 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.rushing_player_stats"
+[0m10:24:29.875760 [debug] [Thread-1 (]: On model.football_data_engineering.rushing_player_stats: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.rushing_player_stats"} */
+alter table "football"."main"."rushing_player_stats__dbt_tmp" rename to "rushing_player_stats"
+[0m10:24:29.875956 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:29.876565 [debug] [Thread-1 (]: On model.football_data_engineering.rushing_player_stats: COMMIT
+[0m10:24:29.876700 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.rushing_player_stats"
+[0m10:24:29.876817 [debug] [Thread-1 (]: On model.football_data_engineering.rushing_player_stats: COMMIT
+[0m10:24:29.877332 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:29.878666 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.rushing_player_stats"
+[0m10:24:29.878842 [debug] [Thread-1 (]: On model.football_data_engineering.rushing_player_stats: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.rushing_player_stats"} */
+
+      drop table if exists "football"."main"."rushing_player_stats__dbt_backup" cascade
+    
+[0m10:24:29.879262 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:29.879842 [debug] [Thread-1 (]: On model.football_data_engineering.rushing_player_stats: Close
+[0m10:24:29.880096 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0939a3e1-baac-404e-af45-a7850fddb73f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bfbc110>]}
+[0m10:24:29.880378 [info ] [Thread-1 (]: 12 of 14 OK created sql table model main.rushing_player_stats .................. [[32mOK[0m in 0.02s]
+[0m10:24:29.880600 [debug] [Thread-1 (]: Finished running node model.football_data_engineering.rushing_player_stats
+[0m10:24:29.880749 [debug] [Thread-1 (]: Began running node model.football_data_engineering.jumbo_by_team_season
+[0m10:24:29.880935 [info ] [Thread-1 (]: 13 of 14 SKIP relation main.jumbo_by_team_season ............................... [[33mSKIP[0m]
+[0m10:24:29.881077 [debug] [Thread-1 (]: Finished running node model.football_data_engineering.jumbo_by_team_season
+[0m10:24:29.881203 [debug] [Thread-1 (]: Began running node model.football_data_engineering.two_qb_by_team_season
+[0m10:24:29.881365 [info ] [Thread-1 (]: 14 of 14 START sql table model main.two_qb_by_team_season ...................... [RUN]
+[0m10:24:29.881515 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.football_data_engineering.rushing_player_stats, now model.football_data_engineering.two_qb_by_team_season)
+[0m10:24:29.881641 [debug] [Thread-1 (]: Began compiling node model.football_data_engineering.two_qb_by_team_season
+[0m10:24:29.882706 [debug] [Thread-1 (]: Writing injected SQL for node "model.football_data_engineering.two_qb_by_team_season"
+[0m10:24:29.883227 [debug] [Thread-1 (]: Began executing node model.football_data_engineering.two_qb_by_team_season
+[0m10:24:29.884569 [debug] [Thread-1 (]: Writing runtime sql for node "model.football_data_engineering.two_qb_by_team_season"
+[0m10:24:29.884844 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.two_qb_by_team_season"
+[0m10:24:29.884966 [debug] [Thread-1 (]: On model.football_data_engineering.two_qb_by_team_season: BEGIN
+[0m10:24:29.885084 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m10:24:29.885294 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:29.885405 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.two_qb_by_team_season"
+[0m10:24:29.885532 [debug] [Thread-1 (]: On model.football_data_engineering.two_qb_by_team_season: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.two_qb_by_team_season"} */
+
+  
+    
+    
+
+    create  table
+      "football"."main"."two_qb_by_team_season__dbt_tmp"
+  
+    as (
+      -- Gold: two-QB plays aggregated by team and season.
+--
+-- Rollup of two_qb_plays. The story jumps off the page: one team
+-- (New Orleans) accounts for almost every two-QB snap in the league,
+-- and the formation lives in the run game.
+
+SELECT
+    season,
+    team,
+    count(*) as two_qb_plays,
+    sum(case when rush = 1 then 1 else 0 end) as two_qb_runs,
+    sum(case when pass = 1 then 1 else 0 end) as two_qb_passes,
+    avg(epa) as two_qb_epa_per_play
+FROM "football"."main"."two_qb_plays"
+GROUP BY season, team
+ORDER BY season DESC, two_qb_plays DESC
+    );
+  
+  
+[0m10:24:29.886642 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m10:24:29.887535 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.two_qb_by_team_season"
+[0m10:24:29.887668 [debug] [Thread-1 (]: On model.football_data_engineering.two_qb_by_team_season: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.two_qb_by_team_season"} */
+alter table "football"."main"."two_qb_by_team_season__dbt_tmp" rename to "two_qb_by_team_season"
+[0m10:24:29.887863 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:29.888361 [debug] [Thread-1 (]: On model.football_data_engineering.two_qb_by_team_season: COMMIT
+[0m10:24:29.888483 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.two_qb_by_team_season"
+[0m10:24:29.888587 [debug] [Thread-1 (]: On model.football_data_engineering.two_qb_by_team_season: COMMIT
+[0m10:24:29.888802 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:29.889452 [debug] [Thread-1 (]: Using duckdb connection "model.football_data_engineering.two_qb_by_team_season"
+[0m10:24:29.889572 [debug] [Thread-1 (]: On model.football_data_engineering.two_qb_by_team_season: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "football_data_engineering", "target_name": "dev", "node_id": "model.football_data_engineering.two_qb_by_team_season"} */
+
+      drop table if exists "football"."main"."two_qb_by_team_season__dbt_backup" cascade
+    
+[0m10:24:29.889762 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:24:29.890288 [debug] [Thread-1 (]: On model.football_data_engineering.two_qb_by_team_season: Close
+[0m10:24:29.890488 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0939a3e1-baac-404e-af45-a7850fddb73f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bffeed0>]}
+[0m10:24:29.890717 [info ] [Thread-1 (]: 14 of 14 OK created sql table model main.two_qb_by_team_season ................. [[32mOK[0m in 0.01s]
+[0m10:24:29.890913 [debug] [Thread-1 (]: Finished running node model.football_data_engineering.two_qb_by_team_season
+[0m10:24:29.891486 [debug] [MainThread]: Using duckdb connection "master"
+[0m10:24:29.891607 [debug] [MainThread]: On master: BEGIN
+[0m10:24:29.891700 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m10:24:29.891861 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m10:24:29.891955 [debug] [MainThread]: On master: COMMIT
+[0m10:24:29.892046 [debug] [MainThread]: Using duckdb connection "master"
+[0m10:24:29.892132 [debug] [MainThread]: On master: COMMIT
+[0m10:24:29.892257 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m10:24:29.892350 [debug] [MainThread]: On master: Close
+[0m10:24:29.892475 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:24:29.892564 [debug] [MainThread]: Connection 'model.football_data_engineering.two_qb_by_team_season' was properly closed.
+[0m10:24:29.892700 [info ] [MainThread]: 
+[0m10:24:29.892810 [info ] [MainThread]: Finished running 12 table models, 2 view models in 0 hours 0 minutes and 14.15 seconds (14.15s).
+[0m10:24:29.893503 [debug] [MainThread]: Command end result
+[0m10:24:29.904140 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/raycarpenter/Documents/GitHub/football_data_engineering/dbt/target/manifest.json
+[0m10:24:29.905725 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/raycarpenter/Documents/GitHub/football_data_engineering/dbt/target/semantic_manifest.json
+[0m10:24:29.908672 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/raycarpenter/Documents/GitHub/football_data_engineering/dbt/target/run_results.json
+[0m10:24:29.908810 [info ] [MainThread]: 
+[0m10:24:29.908939 [info ] [MainThread]: [31mCompleted with 2 errors, 0 partial successes, and 0 warnings:[0m
+[0m10:24:29.909036 [info ] [MainThread]: 
+[0m10:24:29.909161 [error] [MainThread]: [31mFailure in model jumbo_plays (models/gold/jumbo_plays.sql)[0m
+[0m10:24:29.909272 [error] [MainThread]:   Runtime Error in model jumbo_plays (models/gold/jumbo_plays.sql)
+  Parser Error: syntax error at or near "desc"
+  
+  LINE 44:     desc,
+               ^
+[0m10:24:29.909352 [info ] [MainThread]: 
+[0m10:24:29.909448 [info ] [MainThread]:   compiled code at target/compiled/football_data_engineering/models/gold/jumbo_plays.sql
+[0m10:24:29.909534 [info ] [MainThread]: 
+[0m10:24:29.909637 [error] [MainThread]: [31mFailure in model jumbo_plays_full (models/gold/jumbo_plays_full.sql)[0m
+[0m10:24:29.909741 [error] [MainThread]:   Runtime Error in model jumbo_plays_full (models/gold/jumbo_plays_full.sql)
+  Parser Error: syntax error at or near "desc"
+  
+  LINE 37:         yards_gained, epa, desc,
+                                    ^
+[0m10:24:29.909829 [info ] [MainThread]: 
+[0m10:24:29.909928 [info ] [MainThread]:   compiled code at target/compiled/football_data_engineering/models/gold/jumbo_plays_full.sql
+[0m10:24:29.910013 [info ] [MainThread]: 
+[0m10:24:29.910118 [info ] [MainThread]: Done. PASS=11 WARN=0 ERROR=2 SKIP=1 NO-OP=0 TOTAL=14
+[0m10:24:29.910388 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 78.7814, "process_in_blocks": "0", "process_kernel_time": 0.627928, "process_mem_max_rss": "1349795840", "process_out_blocks": "0", "process_user_time": 8.485054}
+[0m10:24:29.910547 [debug] [MainThread]: Command `dbt run` failed at 10:24:29.910515 after 78.78 seconds
+[0m10:24:29.910695 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b8fce90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b9b1f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a5a9430>]}
+[0m10:24:29.910819 [debug] [MainThread]: Flushing usage events
+[0m10:24:30.053377 [debug] [MainThread]: An error was encountered while trying to flush usage events

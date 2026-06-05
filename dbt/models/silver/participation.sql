@@ -48,6 +48,19 @@ select
         0
     ) as n_ineligible_numbered,
 
+    -- Two-QB signal: count of players lined up at QB. 2+ means a second
+    -- quarterback is on the field (e.g. the Saints' Taysom Hill packages).
+    -- Same idea as n_ineligible_numbered above, just counting a position
+    -- instead of a number range. offense_positions is only populated 2023+.
+    coalesce(
+        (
+            select count(*)
+            from unnest(string_to_array(offense_positions, ';')) as t(pos)
+            where pos = 'QB'
+        ),
+        0
+    ) as n_qb,
+
     -- Personnel grouping string ("1 C, 2 G, 1 QB, 1 RB, 2 T, 1 TE")
     offense_personnel,
     defense_personnel,
